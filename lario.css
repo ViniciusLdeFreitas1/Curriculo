@@ -1,0 +1,68 @@
+.fit{
+	color: blue;
+font-family: arial;
+font-size: 50px;
+text-align: left;
+}
+body{
+	background-color: white;
+ 
+
+
+}
+input{
+	margin-top: 6px;
+}
+label{
+	width: 150px;
+	display: inline-block;
+	font-family: arial,sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+label.formata{
+ display: inline-block;
+width: 110px;
+}
+.f{
+	font:25px;
+	color: black;
+}
+.fit2{
+	font-size: 25px;
+	color: black;
+	text-align: left;
+}
+.centralizar{
+	text-align: center;
+}
+.cor{ color: blue;
+}
+.cor2{
+	color: turquoise;
+	width: 110px;
+}
+textarea{
+	width: 600px;
+	height: 70px;
+	resize: none;
+}
+select{
+	margin-top: 6px;
+	height: 25px;
+	width: 170px;
+}
+legend{
+font-family: arial,sans-serif;
+font-size: 14px;
+font-weight: bold;
+}
+fieldset{
+	width: 570px;
+	margin: auto;
+}
+.subir{
+	vertical-align: top;
+	color: blue;
+}

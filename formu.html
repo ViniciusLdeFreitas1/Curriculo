@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="naldo.css">
+	<title>Formulário ENEM</title>
+
+</head>
+<body class="bg">
+	<h1 class="fit">Site sobre você</h1>
+	<h4 class="fit2">Bem-vindo ao seu site</h4>
+	<form>
+		<fieldset class="f">
+			<legend>DADOS PESSOAIS</legend>
+		<label class="cor" for="name">Nome</label>
+		<input type="text" name="nome" size="20" required id="name" 
+		maxlength="15" accesskey="n">
+	</br>
+	<label class="cor" for="mail" >Email</label>
+	<input type="email" name="email"
+	maxlength="20" required id="mail">
+	<br>
+	<label class="cor" for="nasc">Data de Nascimento</label>
+	<input type="date" name="dataNasc" required id="nasc" accesskey="d">
+	<br>
+	<label class="cor" for="pass">Senha(password)</label>
+	<input type="password" name="senha" required id="pass" autofocus accesskey="s">
+	<br>
+	<label for="idd" class="cor">Idade</label>
+	<input type="number" name="idade" max="60" accesskey="i" id="idd">
+	<br>
+	<label class="cor">Telefone(Celular)</label>
+	<input type="tel" name="telefone" id="telf" placeholder="(XX) XXXXXX-XXXXXX"><br>
+	<label class="cor">Sexo</label>
+	<input type="radio" name="sexo" value="masculino">
+	<label class="cor">Feminino</label>
+     <input type="radio" name="sexo" value="feminino">
+     <label class="cor">Masculino</label><br>
+		</div>
+
+		</fieldset>
+<fieldset class="f">
+			<legend>ENDEREÇO</legend>
+		<label class="cor" for="rua">Rua</label>
+		<input type="text" name="rua" size="40" required id="rua" 
+		maxlength="15" accesskey="r">
+	</br>
+	<label class="cor" for="mail" >Bairro</label>
+	<input type="text" name="bairro"
+	maxlength="20" required id="bairro" accesskey="b">
+	<br>
+	<label class="cor" for="nasc">Número da casa</label>
+	<input type="number" name="Num" required id="numb" accesskey="c">
+	<br>
+	<label class="cor" for="pass">CEP</label>
+	<input type="number" name="cep" required id="cep" autofocus accesskey="c">
+	<br>
+	<label class="cor">Telefone(Fixo)</label>
+	<input type="tel" name="telefone" id="telf" placeholder="(XX) XXXXX-XXXX"><br>
+	<label class="cor">Moradia</label>
+	<select name="carros">
+	<option>Escolha a opção da sua moradia </option>
+	<option value="casa">Casa</option>
+	<option value="ap">Apartamento</option>
+	<option value="cond">Condominio</option>
+	</select><br>
+		</div>
+		</fieldset>
+	<fieldset class="f">
+<legend>DADOS COMPLEMENTARES</legend>
+		<label class="cor" for="ndr">Nome das suas Redes Sociais </label>
+		<input type="text" name="redes" size="40" required id="redes" 
+		maxlength="15" accesskey="r">
+	</br>
+	<label class="cor" for="mail" >Livros que você gosta</label>
+	<input type="text" name="bairro"
+	maxlength="20" required id="livros" accesskey="l">
+	<br>
+	<label for="sn" class="cor">Sobrenome</label>
+	<input type="text" name="sobrenome" max="60" accesskey="s" id="sobre">
+	<br>
+	<label class="cor">Outro Telefone</label>
+	<input type="tel" name="telefone" id="telfout" placeholder="(XX) XXXXX-XXXX"><br>
+	<label class="cor">Tipos de filme</label>
+	<select name="filmes">
+	<option>Escolha um filme</option>
+	<option value="açao">Ação</option>
+	<option value="suspense">Suspense</option>
+	<option value="terror">Terror</option>
+	<option value="comedia">Comédia</option>
+	<option value="romance">Romance</option>
+	<option value="outro">Outro</option>
+	</select><br>
+     <label class="subir">Seus Hobbies:</label>
+     <textarea name="sugestao" rows="5" cols="40"> Coloque seus hobbies e coisas que gosta de fazer</textarea><br>
+     <div class="centralizar">
+     <input type="submit" name="enviar" value="Cadastrar">
+     <input type="reset" name="apagar" value="Limpar">
+		</div>
+		</fieldset>
+		</form>
+
+</body>
+</html>
